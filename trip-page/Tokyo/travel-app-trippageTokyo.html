@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Tokyo Tour Packages</title>
+	<link rel="stylesheet" href="travel-app-trippageTokyo.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+			<nav class="navbar">
+				<div class="logo">
+					<span>Trip</span>Trekker
+				</div>
+				<div class="nav-links">
+					<a href="#">Product</a>
+					<a href="#">Creators</a>
+					<a href="#">Blog</a>
+				</div>
+				<div class="nav-actions">
+					<a href="#" class="login">Login</a>
+					<a href="#" class="signup">Sign up</a>
+				</div>
+			</nav>
+	   <div class="main-content-outer">
+		   <div class="main-content-container">
+			   <div class="content-header">
+				   <h1 class="page-title">Tokyo Tour Packages</h1>
+				   <div class="search-bar-container">
+					   <input type="text" class="search-bar" placeholder="Search Other Destinations">
+					   <button class="search-btn"><i class="fa-solid fa-search"></i></button>
+				   </div>
+			   </div>
+			   <div class="filter-bar">
+				   <div class="filter-right">
+					   <label for="filter-select">Filter:</label>
+					   <select id="filter-select">
+						   <option value="default">Default</option>
+						   <option value="cost-asc">Cost: Low to High</option>
+						   <option value="cost-desc">Cost: High to Low</option>
+						   <option value="rating-desc">Rating: High to Low</option>
+					   </select>
+				   </div>
+			   </div>
+			   <div class="packages-container" id="packages-container">
+				   <!-- Cards will be rendered by JS -->
+			   </div>
+		   </div>
+	   </div>
+	   <script src="travel-app-trippageTokyo.js"></script>
+</body>
+</html>
